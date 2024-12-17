@@ -1,0 +1,3930 @@
+ /*--------------------------------------------------------------
+    All Page Banner
+--------------------------------------------------------------*/
+ .All-Page-Banner {
+     padding: 100px 0px;
+     position: relative;
+ }
+
+ .All-Page-Banner::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: var(--color-blue);
+     width: 100%;
+     height: 100%;
+     opacity: 0.9;
+ }
+
+ .All-Page-Banner .BnrPage-Inner {
+     padding: 300px 0px 0px;
+ }
+
+ .All-Page-Banner .BnrPage-Inner .BnrPage-Title {
+     position: relative;
+     z-index: 10;
+     max-width: 70%;
+ }
+
+ .All-Page-Banner .BnrPage-Inner .BnrPage-Title h1 {
+     font-size: 60px;
+     color: var(--color-green);
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+     font-family: var(--font-Chakra-Petch);
+     transition: .5s all ease;
+ }
+
+ .All-Page-Banner .BnrPage-Inner .BnrPage-Title p {
+     font-size: 23px;
+     line-height: 32px;
+     color: var(--color-white);
+     font-weight: 400;
+     width: 80%;
+     margin: 0px;
+     font-family: var(--font-Neue-Montreal);
+     transition: .5s all ease;
+ }
+
+ /*--------------------------------------------------------------
+    End All Page Banner
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+   Speaker Page
+--------------------------------------------------------------*/
+
+ .All-Page-Banner.Speaker-banner {
+     background: url(../../image/Banners/SpkrPage-Bg.jpg) no-repeat center / cover;
+ }
+
+ .Speaker-Section.speaker-page-section {
+     background: rgba(241, 241, 241, 1);
+ }
+
+ .Speaker-Section.speaker-page-section .Section-title h1 {
+     color: var(--color-Black);
+ }
+
+ .Be-A-Speaker {
+     background: var(--color-blue);
+ }
+
+ .Be-A-Speaker .row {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+ }
+
+ .Be-A-Speaker .section-title h1 {
+     color: var(--color-white);
+     text-align: left;
+     font-size: 60px;
+     margin-bottom: 25px;
+     font-family: var(--font-Chakra-Petch);
+     text-transform: uppercase;
+ }
+
+ .Be-A-Speaker .right-content p {
+     color: var(--color-white);
+     font-size: 20px;
+     font-weight: 400;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Be-A-Speaker .right-content ul {
+     padding-left: 20px;
+     margin-bottom: 25px;
+ }
+
+ .Be-A-Speaker .right-content ul li {
+     list-style: disc;
+     font-size: 20px;
+     color: var(--color-white);
+     font-weight: 400;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Be-A-Speaker .right-content .SPk-btn a {
+     background: var(--color-green);
+     color: var(--color-black);
+     border: none;
+     display: inline-block;
+     border-radius: 0px;
+     font-size: 24px;
+     font-weight: 400;
+     padding: 10px 22px;
+     font-family: var(--font-Neue-Montreal);
+     transition: .5s all ease;
+ }
+
+ .Be-A-Speaker .right-content .SPk-btn a i {
+     margin-left: 10px;
+     color: var(--color-black);
+     transition: .5s all ease;
+ }
+
+ .Be-A-Speaker .right-content .SPk-btn a:hover {
+     background: rgba(24, 57, 220, 1);
+     color: var(--color-white);
+ }
+
+ .Be-A-Speaker .right-content .SPk-btn a:hover i {
+     color: var(--color-white);
+ }
+
+ /*--------------------------------------------------------------
+   End Speaker Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+   Partner Page
+--------------------------------------------------------------*/
+ .All-Page-Banner.Partner-banner {
+     background: url(../../image/Banners/Partner-banner.jpg) no-repeat center / cover;
+ }
+
+ /*--------------------------------------------------------------
+   End Partner Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+  Sponsor Page
+--------------------------------------------------------------*/
+ .All-Page-Banner.Sponsor-banner-bg {
+     background: url(../../image/Banners/Partner-bg.jpeg.jpg) no-repeat center / cover;
+ }
+
+ .Partner-Section {
+     background: rgba(241, 241, 241, 1);
+ }
+
+ .Partner-Section .Section-title h5 {
+     color: var(--color-black);
+ }
+
+ .Partner-Section .Section-title h1 {
+     color: var(--color-black);
+     margin-bottom: 40px;
+ }
+
+ .Partner-Section .Partner-Title h2 {
+     font-size: 42px;
+     font-weight: 600;
+     text-align: left;
+     padding-bottom: 10px;
+     color: rgba(92, 92, 92, 1);
+     text-transform: uppercase;
+     position: relative;
+     margin-bottom: 50px;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .Partner-Section .Partner-Title h2::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: auto;
+     border-bottom: 1px solid rgba(92, 92, 92, 1);
+ }
+
+ .Partner-Section .Partnerlist {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+
+ .Partner-Section .Partner-Card {
+     max-width: 225px;
+     max-height: 96px;
+     width: 100%;
+     height: 96px;
+     position: relative;
+     background: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(92, 92, 92, 1);
+     overflow: hidden;
+ }
+
+ .Partner-Section .Partner-Card img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .Partner-Section .Partner-Card .Ptnr-Card-Site {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     padding: 15px 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: #0000009d;
+     transform: translateY(100%);
+     opacity: 0;
+     transition: 0.3s;
+     cursor: pointer;
+     overflow: hidden;
+ }
+
+ .Partner-Section .Partner-Card:hover .Ptnr-Card-Site {
+     opacity: 1;
+     transform: translateY(0%);
+ }
+
+ .Partner-Section .Partner-Card .Ptnr-Card-Site h4 {
+     font-size: 15px;
+     font-weight: 700;
+     text-align: center;
+     font-family: var(--font-Chakra-Petch);
+     text-transform: uppercase;
+     margin-bottom: 16px;
+     color: var(--color-white);
+ }
+
+ .Partner-Section .Partner-Card .Ptnr-Card-Site a {
+     font-size: 14px;
+     font-weight: 500;
+     color: var(--color-white);
+     display: block;
+     width: 100px;
+     text-align: center;
+     letter-spacing: 0.4px;
+     text-decoration: underline;
+     text-transform: capitalize;
+ }
+
+ .Partner-Section .Partner-Card .Ptnr-Card-Site a:hover {
+     color: var(--color-green);
+ }
+
+ /*--------------------------------------------------------------
+   End Sponsor Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+   Hashmining Page
+--------------------------------------------------------------*/
+
+ .Overflow-Hd {
+     overflow: hidden;
+ }
+
+ .Hasmining-Page {
+     background-color: var(--color-black);
+ }
+
+ /*--------------------------------------------------------------
+   End Hashmining Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Sub Page Banner
+--------------------------------------------------------------*/
+
+ .SubPage-Banner {
+     background: url(../../image/HashMining/HasminingBnr-Bg.png) no-repeat center / cover;
+     background-color: #000;
+     position: relative;
+ }
+
+ .SubPage-Banner::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     width: 100%;
+     height: 100%;
+     background: radial-gradient(71.11% 100% at 50% 100%, rgba(255, 174, 0, 0.79) 0%, rgba(115, 115, 115, 0) 92.54%);
+ }
+
+ .SubPage-Banner .SubPg-Bnrinner {
+     padding: 352px 0px 245px;
+     max-width: 1000px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0px auto;
+     position: relative;
+     z-index: 5;
+ }
+
+ .SubPage-Banner .SubPg-Bnrimg {
+     max-width: 670px;
+     width: 100%;
+     height: 100%;
+     margin-bottom: 50px;
+ }
+
+ .SubPage-Banner .SubPg-Bnrimg img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .SubPage-Banner .SubPg-cont p {
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 1.5;
+     text-align: center;
+     color: var(--color-white);
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ /*--------------------------------------------------------------
+  Sub Page Banner
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Innovator Section
+--------------------------------------------------------------*/
+
+ .Inovator-Section {
+     padding: 70px 0px;
+ }
+
+ .HashSection-title h1 {
+     font-size: 56px;
+     font-weight: 600;
+     max-width: 800px;
+     width: 100%;
+     margin-bottom: 25px;
+     text-transform: uppercase;
+     text-shadow: 0px 4px 40px rgba(255, 165, 0, 0.90);
+     background: linear-gradient(250.26deg, #FFF3D5 55.56%, #D99A26 120.75%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .Inovator-Section .Innovator-cardlist {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     row-gap: 20px;
+     margin-top: 50px;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card {
+     display: flex;
+     align-items: center;
+     column-gap: 20px;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-img {
+     flex-shrink: 0;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-img,
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-cont,
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-percent {
+     display: flex;
+     justify-content: center;
+     border: 1px solid rgba(255, 255, 255, 0.12);
+     padding: 4px 10px;
+     background: rgb(255 222 150 / 13%);
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-img img {
+     width: 30px;
+     height: 30px;
+     display: block;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-cont p,
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-percent p {
+     color: #FFDE96;
+     font-size: 17px;
+     font-weight: 400;
+     margin: 0px;
+     font-family: var(--font-Neue-Montreal);
+     white-space: nowrap;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-ratio {
+     flex: 1;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-ratio img {
+     width: 100%;
+     height: 16px;
+     object-fit: cover;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-percent {
+     min-width: 60px;
+ }
+
+ .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-percent p {
+     text-align: center;
+ }
+
+ /*--------------------------------------------------------------
+    End Innovator Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    7th Edition Section
+--------------------------------------------------------------*/
+
+ .All-Page-Banner.SevEdition-bg {
+     background: url(../../image/7th-Edition/7th-edition.jpg) no-repeat center / cover;
+ }
+
+ .All-Page-Banner.SevEdition-bg .BnrPage-Inner .BnrPage-Title h1 {
+     font-size: 3.9vw;
+ }
+
+ /* sevanth-Edition */
+
+ .sevanth-Edition {
+     background: #1839DC;
+     align-items: center;
+ }
+
+ .sevanth-Edition .row {
+     justify-content: space-between;
+     row-gap: 50px;
+ }
+
+ .sevanth-Edition .SevBnrCount-item {
+     position: relative;
+     z-index: 30;
+     padding: 20px 20px;
+     border-left: 2px solid #00FF8C;
+     background-color: var(--color-blue);
+ }
+
+ .sevanth-Edition .SevBnrCount-item p {
+     text-transform: uppercase;
+     font-size: 36px;
+     line-height: 48px;
+     font-weight: 500;
+     white-space: nowrap;
+     color: var(--color-white);
+     margin-bottom: 0px;
+     font-family: var(--font-Chakra-Petch);
+     text-align: center;
+ }
+
+ .sevanth-Edition .SevBnrCount-item h1 {
+     font-size: 24px;
+     font-weight: bold;
+     overflow: hidden;
+     height: 30px;
+     margin-bottom: 0px;
+     line-height: 30px;
+     display: flex;
+     align-items: baseline;
+     justify-content: center;
+     font-family: var(--font-Neue-Montreal);
+     color: var(--color-white);
+ }
+
+ /* Left-Right_sec */
+
+ .Left-Right_sec {
+     background: #F1F1F1;
+ }
+
+ .Left-Right_sec .Section-title h1 {
+     color: var(--color-Black);
+ }
+
+ .Left-Right_sec .left-cont p {
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 32px;
+     color: var(--color-text);
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Left-Right_sec .right-cont {
+     position: relative;
+ }
+
+ .Left-Right_sec .right-cont .About-Video {
+     width: 100%;
+     height: 100%;
+     aspect-ratio: 13 / 8;
+     position: relative;
+     overflow: hidden;
+     border-radius: 10px;
+ }
+
+ .Left-Right_sec .right-cont .About-Video .About-Thumb {
+     background: url(../../image/7th-Edition/video-img.jpg);
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-position: center center;
+     cursor: pointer;
+ }
+
+ .Left-Right_sec .right-cont .About-Video .Video-Play {
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) scale(1);
+     cursor: pointer;
+ }
+
+ .Left-Right_sec .right-cont .About-Video .Video-Play i {
+     font-size: 50px;
+     color: red;
+ }
+
+ .Left-Right_sec .right-cont .About-Video #thevideo {
+     width: 100%;
+     height: 100%;
+ }
+
+ .Left-Right_sec .right-cont .About-Video #thevideo video {
+     width: 100%;
+     height: 100%;
+ }
+
+ /* TFM-Journey-sec */
+
+ .TFM-Journey-sec {
+     background: #0D0135 url(../../image/Small-Banner/Transformative-Journey.png) no-repeat bottom / cover;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 0px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card {
+     width: 25%;
+     width: 288px;
+     height: 408px;
+     padding: 20px 25px;
+     position: relative;
+     overflow: hidden;
+     margin: 20px 0px 50px;
+     transform: rotate(-8deg);
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(1) {
+     background: #3c00ff4f;
+     background-image: url(../../image/7th-Edition/Group-2509.png);
+     background-size: cover;
+     background-position: center;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(2) {
+     background-image: url(../../image/7th-Edition/Group-2510.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -15px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(3) {
+     background: #3c00ff4f;
+     background-image: url(../../image/7th-Edition/Group-2509.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -30px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(4) {
+     background-image: url(../../image/7th-Edition/Group-2510.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -45px;
+
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(5) {
+     background: #3c00ff4f;
+     background-image: url(../../image/7th-Edition/Group-2509.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(6) {
+     background-image: url(../../image/7th-Edition/Group-2510.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -15px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(7) {
+     background: #3c00ff4f;
+     background-image: url(../../image/7th-Edition/Group-2509.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -30px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(8) {
+     background-image: url(../../image/7th-Edition/Group-2510.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     left: -45px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card .fit-img {
+     width: 65px;
+     height: 150px;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card .fit-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card h2 {
+     font-size: 48px;
+     line-height: 57px;
+     color: var(--color-white);
+     font-family: var(--font-Neue-Montreal);
+     font-weight: 400 !important;
+ }
+
+ .TFM-Journey-sec .TFM-eight-cards .TFM-card h4 {
+     font-size: 32px;
+     line-height: 40px;
+     color: var(--color-white);
+     font-family: var(--font-Neue-Montreal);
+     font-weight: 400;
+ }
+
+ /*--------------------------------------------------------------
+    Glance Section
+--------------------------------------------------------------*/
+ .Glance-Section {
+     background: linear-gradient(236.36deg, #001478 -62.2%, #0F0F10 61.75%, #001478 118.75%);
+ }
+
+ .Glance-Section .row {
+     row-gap: 50px;
+     align-items: center;
+ }
+
+ .Glance-Section .Glance-cont .Section-title h1 {
+     color: var(--color-white);
+ }
+
+ .Glance-Section .Glance-cont .Section-title h1 span {
+     display: block;
+ }
+
+ .Glance-Section .Glance-cont .Section-title h1 .Glance-green {
+     color: var(--color-green);
+     display: inline-block;
+ }
+
+ .Glance-Section .Glance-cont .Glance-counter {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: start;
+     align-items: center;
+     gap: 20px;
+     margin-top: 50px;
+ }
+
+ .Glance-Section .Glance-counter .Glancecounter-item {
+     flex-basis: 45%;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner {
+     display: inline-block;
+     padding: 16px 5px 16px 0px;
+     width: fit-content;
+     position: relative;
+     margin-right: auto;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-threedigit {
+     min-width: 113px;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fourdigit {
+     min-width: 137px;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fivedigit {
+     min-width: 165px;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner::after {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     z-index: 0;
+     width: 100%;
+     height: 100%;
+     border-bottom: 1px solid rgba(255, 255, 255, 1);
+     pointer-events: none;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner h1 {
+     font-size: 44px;
+     font-weight: 500;
+     color: var(--color-white);
+     text-align: left;
+     margin-bottom: 8px;
+     font-family: var(--font-Chakra-Petch);
+     transition: .5s all ease;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner p {
+     font-size: 23px;
+     font-weight: 400;
+     color: var(--color-white);
+     text-align: left;
+     margin: 0px;
+     letter-spacing: 0.4px;
+     font-family: var(--font-Neue-Montreal);
+     transition: .5s all ease;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner:hover h1,
+ .Glance-Section .Glancecounter-item .Glancecounter-inner:hover p {
+     color: var(--color-green);
+     transition: .5s all ease;
+ }
+
+ .Glance-Section .Glancecounter-item .Glancecounter-inner:hover::after {
+     border-color: var(--color-green);
+     transition: .5s all ease;
+ }
+
+ .Glance-Section .Glance-img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 95%;
+     margin: 0px auto;
+ }
+
+ .Glance-Section .Glance-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ /*--------------------------------------------------------------
+  End Glance Section
+ --------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+     Percentage Section
+ --------------------------------------------------------------*/
+
+ .Percentage-Section {
+     background: rgba(13, 1, 53, 1);
+ }
+
+ .Percentage-Section .row {
+     row-gap: 60px;
+ }
+
+ .Percentage-Section .Perctge-card {
+     width: 100%;
+     max-width: 600px;
+     min-height: 320px;
+     height: 100%;
+     padding: 40px 45px;
+     background: rgba(13, 1, 53, 1);
+     border: 0.5px solid rgba(60, 0, 255, 1);
+     display: flex;
+     align-items: center;
+     gap: 55px;
+     margin: 0px auto;
+     position: relative;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-tag {
+     width: auto;
+     min-width: 213px;
+     height: 40px;
+     position: absolute;
+     top: -21px;
+     left: -1px;
+     padding: 4px 20px;
+     background: linear-gradient(90deg, #F09 0%, #F00 100%), linear-gradient(90deg, #1839DC 0%, #0D0135 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-tag p {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 32px;
+     color: var(--color-white);
+     margin: 0px;
+     text-transform: uppercase;
+     text-align: center;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-img {
+     width: 35%;
+     display: flex;
+     justify-content: center;
+     flex-shrink: 0;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-img .Perctge-chart {
+     width: 100%;
+     max-width: 180px;
+     height: 100%;
+     position: relative;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-img .Perctge-chart::before {
+     content: "";
+     position: absolute;
+     top: 53%;
+     left: 50%;
+     transform: translate(-49%, -50%);
+     z-index: 10;
+     max-width: 85px;
+     width: 100%;
+     max-height: 85px;
+     height: 100%;
+     background: url(../../image/Percent-Section/Percentage.png) no-repeat center / cover;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-img .Perctge-chart canvas {
+     position: relative;
+     z-index: 20;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-cont {
+     width: 65%;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-cont .Perctge-count {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 6px;
+     width: 100%;
+     margin-bottom: 4px;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color {
+     width: 12px;
+     height: 12px;
+     flex-shrink: 0;
+     margin-top: 5px;
+     background: linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-blue {
+     background: linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-violet {
+     background: linear-gradient(212deg, #9747FF -37.37%, #5B2B99 80.88%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-red {
+     background: linear-gradient(219deg, #EA2664 5.82%, #841538 99.62%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-green {
+     background: linear-gradient(180deg, #00D0E8 0%, #007582 100%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-red {
+     background: linear-gradient(219deg, #EA2664 5.82%, #841538 99.62%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-lightblue {
+     background: linear-gradient(180deg, #6985F6 0%, #3D4E90 100%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-orange {
+     background: linear-gradient(180deg, #FF6200 0%, #993B00 100%), linear-gradient(180deg, #FF6200 0%, #993B00 100%), linear-gradient(200deg, #00FF8C 13.38%, #009954 93.18%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-lightgreen {
+     background: linear-gradient(180deg, #6FFF00 0%, #3A8600 100%), linear-gradient(200deg, #00FF8C 13.38%, #009954 93.18%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-lightorange {
+     background: linear-gradient(180deg, #FFA500 0%, #8B5A00 100%), linear-gradient(200deg, #00FF8C 13.38%, #009954 93.18%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-color.Perctge-darkred {
+     background: linear-gradient(180deg, #F00 0%, #800 100%), linear-gradient(180deg, #FF6200 0%, #993B00 100%), linear-gradient(200deg, #00FF8C 13.38%, #009954 93.18%), linear-gradient(180deg, #3C00FF 0%, #240099 100%), linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-loct {
+     flex: 1;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-bar {
+     max-width: 50px;
+     width: 100%;
+     height: 24px;
+     flex-shrink: 0;
+     border: 0.5px solid #3C00FF;
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-loct p,
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-bar p {
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 23px;
+     color: var(--color-white);
+     margin-bottom: 0px;
+     text-transform: uppercase;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .Percentage-Section .Perctge-card .Perctge-count .Perctge-bar p {
+     text-align: center;
+ }
+
+ /*--------------------------------------------------------------
+      End Percentage Section
+ --------------------------------------------------------------*/
+
+
+ .As-we-step {
+     background: #F1F1F1;
+ }
+
+ .As-we-step .row {
+     row-gap: 15px;
+     margin-top: 15px;
+     align-items: center;
+ }
+
+ .As-we-step .As-Edition-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .As-we-step .Section-title h5 {
+     color: var(--color-black);
+     text-transform: capitalize;
+     font-weight: 500;
+     line-height: 40px;
+     margin-bottom: 30px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .As-we-step .Section-title p {
+     color: var(--color-black);
+     font-size: 20px;
+     font-weight: 400;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .As-we-step .add-pad {
+     padding-right: 15px;
+     padding-left: 0px;
+ }
+
+ .As-we-step .Edition-right img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .Join-section {
+     position: relative;
+     padding: 200px 0px;
+ }
+
+ .Join-section::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 32.4%, #000000 100%);
+ }
+
+ .Join-section .join-us img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     background: no-repeat center / cover;
+ }
+
+ .Join-section .join-us {
+     position: absolute;
+     text-align: center;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+ }
+
+ .Join-section .Section-title h1 {
+     text-align: center;
+     font-size: 75px;
+     line-height: 88px;
+     color: var(--color-white);
+ }
+
+ .Join-section .Section-title h5 {
+     line-height: 45px;
+     z-index: 1;
+     text-align: center;
+     position: relative;
+ }
+
+ /*--------------------------------------------------------------
+    End 7th Edition Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Why Hashmining Section
+--------------------------------------------------------------*/
+ .Why-Hashmining {
+     background: url(../../image/HashMining/Hashmining-bg.jpg) no-repeat center / cover;
+     padding: 70px 0px;
+ }
+
+ .Why-Hashmining .row {
+     align-items: center;
+     row-gap: 20px;
+ }
+
+ .Why-Hashmining .HashSection-title p {
+     font-size: 24px;
+     color: #FFDE96;
+ }
+
+ .Why-Hashmining .Bitcoin img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ /*--------------------------------------------------------------
+    End Why Hashmining Section
+ --------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Region Map Section
+--------------------------------------------------------------*/
+ .Region-Map {
+     background: url(../../image/HashMining/Map-bg.png) no-repeat center / cover;
+     padding: 70px 0px;
+ }
+
+ .Region-Map .World-Map {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ .Region-Map .World-Map img {
+     width: 80%;
+ }
+
+ /*--------------------------------------------------------------
+    End Region Map Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Attending Count Section
+ --------------------------------------------------------------*/
+ .Attending-Count {
+     background: url(../../image/HashMining/Counter-bg.png) no-repeat center / cover;
+     padding: 70px 0px;
+     position: relative;
+ }
+
+ .Attending-Count .overlay {
+     background: url(../../image/HashMining/Counter-grid-bg.png);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 1;
+ }
+
+ .Attending-Count .Attend-counts {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 15px;
+ }
+
+ .Attending-Count .HashCounter_Section {
+     position: relative;
+     z-index: 5;
+ }
+
+ .Attending-Count .HashCounter_Section .HashCounter-item {
+     text-align: center;
+     padding: 12px;
+     background: rgb(44 36 20 / 48%);
+     border: 2px solid #393123;
+ }
+
+ .Attending-Count .Attend-box {
+     width: 18%;
+     min-width: 170px;
+ }
+
+ .Attending-Count .Attend-box .HashCounter-item h1 {
+     font-size: 40px;
+     line-height: 64px;
+     margin-bottom: 0px;
+     color: #F6CE69;
+     font-weight: 700;
+     text-align: center;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .Attending-Count .Attend-box .HashCounter-item p {
+     font-size: 14px;
+     line-height: 21px;
+     font-weight: 400;
+     white-space: nowrap;
+     color: var(--color-white);
+     text-transform: uppercase;
+     margin-bottom: 0px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ /*--------------------------------------------------------------
+    End Attending Count Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Offer Section
+--------------------------------------------------------------*/
+ .Offer-Section {
+     background: linear-gradient(165deg, #000000 0%, #301F01 100%);
+     padding: 70px 0px;
+ }
+
+ .Offer-Section .row {
+     justify-content: center;
+     row-gap: 40px;
+ }
+
+ .Offer-card-box {
+     background-color: #111;
+     border: 1px solid #f6ce6987;
+     padding: 40px;
+     height: 100%;
+ }
+
+ .Offer-card-box .Offer-title {
+     font-family: var(--font-Neue-Montreal);
+     font-size: 30px;
+     font-weight: 500;
+     line-height: 43.2px;
+     padding-bottom: 10px;
+     text-align: left;
+     color: #F6CE69;
+ }
+
+ .Offer-card-box .Offer-cont {
+     font-family: var(--font-Neue-Montreal);
+     font-size: 18px;
+     font-weight: 400;
+     text-align: left;
+     color: var(--color-white);
+     letter-spacing: 0.4px;
+ }
+
+ /*--------------------------------------------------------------
+     End Offer Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Join us
+--------------------------------------------------------------*/
+
+ .Joinus-Section {
+     background: var(--color-black);
+     padding: 50px 0px;
+ }
+
+ .Joinus-Section .Joinus-cont p {
+     font-size: 25px;
+     font-weight: 400;
+     line-height: 40px;
+     color: var(--color-white);
+     margin: 0px auto;
+     text-align: center;
+     max-width: 1000px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Joinus-Section:hover .Joinus-cont p span {
+     color: #F6CE69;
+ }
+
+ /*--------------------------------------------------------------
+  End Join us
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Floorplan Page
+--------------------------------------------------------------*/
+
+ /* ------  Floorplan Banner  ------ */
+ .All-Page-Banner.FplrPage-bg {
+     background: url(../../image/Banners/FplrPage-Bg.jpg) no-repeat center / cover;
+ }
+
+ /* ------  Floorplan Section  ------ */
+ .Floorplan-Section {
+     background: #0A0128;
+ }
+
+ /* .Floorplan-Section .Fplr-title {
+     display: flex;
+     align-items: start;
+     justify-content: space-between;
+ }
+
+ .Floorplan-Section .Fplr-btn {
+     border: none;
+     background: linear-gradient(90deg, rgba(255, 187, 0, 0.90) 0%, rgba(255, 0, 34, 0.90) 100%), linear-gradient(87deg, #3C00FF -2.83%, #00FF8C 106.52%), linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
+ }
+
+ .Floorplan-Section .Fplr-btn:hover {
+     background: linear-gradient(60deg, rgba(60, 0, 255, 0.9), rgba(236, 54, 78, 0.9), rgba(255, 187, 0, 0.9), rgba(255, 0, 34, 0.9));
+     background-size: 600%;
+     -webkit-animation: Btn-Gradient 8s linear infinite;
+     color: var(--color-white);
+     border-image: var(--color-transparent);
+ } */
+
+ .Floorplan-Section .Fplr-cont {
+     overflow: hidden;
+ }
+
+ .Floorplan-Section .Fplr-cont .Fplr-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .Floorplan-Section .Fplr-cont .Fplr-btmbtn {
+     display: none;
+     margin-top: 50px;
+ }
+
+ .Floorplan-Section .Fplr-cont .Fplr-btmbtn .Fplr-btn {
+     margin: 0px auto;
+ }
+
+ /*--------------------------------------------------------------
+    End Floorplan Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Faq Page
+--------------------------------------------------------------*/
+
+ /* ------  FAQ Banner  ------ */
+ .All-Page-Banner.FAQ-banner {
+     background: url(../../image/Banners/faq-banner.jpg) no-repeat top / cover;
+ }
+
+ .Faq-section {
+     background: #121731;
+ }
+
+ .Faq-section .faq-slide {
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .Faq-section.Faq-ParaCont .section-title h1 {
+     margin-bottom: 15px;
+ }
+
+ .Faq-section.Faq-ParaCont .section-title p {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .Faq-section .accordion-button {
+     color: var(--color-white);
+     font-weight: 400;
+     padding: 10px;
+     font-size: 23px;
+     font-family: var(--font-Neue-Montreal);
+     background: #121731;
+ }
+
+ .Faq-section .accordion-button:focus {
+     box-shadow: none;
+ }
+
+ .Faq-section .accordion-button:not(.collapsed) {
+     color: var(--color-white);
+     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+ }
+
+ .Faq-section .accordion-button::after {
+     content: "\f107";
+     font-family: FontAwesome;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     background: rgb(85 169 134 / 0%);
+     font-size: 18px;
+     color: #ffffff75;
+     transition: .5s all;
+     border: 1px solid #ffffff75;
+ }
+
+ .Faq-section button:hover {
+     border-color: var(--color-white);
+ }
+
+ .Faq-section .accordion-item .accordion-body {
+     background-color: #121731;
+     padding: 10px;
+ }
+
+ .Faq-section .accordion-item .accordion-body p {
+     color: var(--color-white);
+     font-size: 20px;
+     font-family: var(--font-Neue-Montreal);
+     margin: 0px !important;
+     font-weight: 400;
+ }
+
+ .Faq-section .accordion-body ul,
+ .Faq-section .accordion-body ul li {
+     color: var(--color-white);
+     font-size: 20px;
+     margin-bottom: 10px;
+ }
+
+ .Faq-section .accordion-body ul {
+     padding-left: 1.5rem;
+ }
+
+ .Faq-section .accordion-body ul li {
+     list-style: disc;
+ }
+
+ .Faq-section .accordion-item .Sub-Title {
+     font-size: 25px;
+     margin: 15px 0px;
+     color: var(--color-white);
+ }
+
+ .mborder {
+     color: var(--bs-accordion-color);
+     background-color: #ffffff2e;
+     border: var(--bs-accordion-border-width) solid #dee2e600;
+ }
+
+ .accordion-item:last-of-type .accordion-button.collapsed {
+     border-bottom: 0.5px solid #ffffff2e !important;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+
+ /*--------------------------------------------------------------
+   End Faq Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+  Testimonial Page
+--------------------------------------------------------------*/
+ .All-Page-Banner.Testimonial-banner {
+     background: url(../../image/Testimonial/testimonial-banner.jpg) no-repeat center / cover;
+ }
+
+ /* video-section */
+ .testimonial-video-section {
+     background: #F1F1F1;
+     position: relative;
+ }
+
+ .testimonial-video-section .row {
+     margin-bottom: 20px;
+ }
+
+ .testimonial-video-section .testimonial-Video {
+     position: relative;
+     overflow: hidden;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .testimonial-video-section .testimonial-Thumb {
+     height: 100%;
+ }
+
+ .testimonial-video-section .testimonial-Video .testimonial-Thumb img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .testimonial-video-section .video-play {
+     width: 112px !important;
+     height: 78px !important;
+     cursor: 100%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1;
+ }
+
+ .testimonial-video-section .modal-content {
+     border: none !important;
+     background: transparent !important;
+     position: relative !important;
+ }
+
+ .testimonial-video-section .modal-content .btn-close {
+     position: absolute !important;
+     left: 97%;
+     top: -6%;
+     background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/auto auto no-repeat !important;
+ }
+
+ .testimonial-content {
+     background: url(../../image/Testimonial/Group2509.jpg) no-repeat center / cover !important;
+     width: 100%;
+     height: 100%;
+ }
+
+ .quote-icon {
+     width: 96px;
+     height: 96px;
+     border-right: 1px solid #00FF8C;
+     border-bottom: 1px solid #00FF8C;
+     background: #0D0135;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-sizing: border-box;
+
+ }
+
+ .quote-icon span {
+     color: rgba(255, 255, 255, 0.00);
+     -webkit-text-stroke-width: 1px !important;
+     -webkit-text-stroke-color: #00FF8C !important;
+     font-family: "Neue Montreal";
+     font-size: 150px !important;
+     font-weight: 400 !important;
+     padding-top: 65px;
+ }
+
+ .testimonial-content p {
+     color: var(--color-white);
+     font-family: "Neue Montreal";
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 32px;
+     padding: 57px !important;
+ }
+
+ .heighlight-text {
+     color: #00FF8C;
+     font-family: "Neue Montreal";
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 32px;
+ }
+
+ .video-bg {
+     width: 100%;
+     height: 16px;
+     border-top: 1px solid #00FF8C;
+     background: #0D0135;
+ }
+
+ /* ------ Multimedia Section ------ */
+
+ .Multimedia-section {
+     background: #FAFAFA;
+ }
+
+ .Multimedia-section .row {
+     row-gap: 30px;
+ }
+
+ .Multimedia-section .Multimedia-cont {
+     position: relative;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     min-height: 300px;
+     overflow: hidden;
+ }
+
+ .Multimedia-section .Multimedia-cont .Mulmedia-thumb {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .Multimedia-section .Multimedia-cont .Mulmedia-play {
+     width: 78px;
+     height: auto;
+     object-fit: cover;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1;
+ }
+
+ .Mulmedia-Frame.modal {
+     background: #00000057;
+ }
+
+ .Mulmedia-Frame .modal-content {
+     min-height: 280px;
+     margin: 0 auto;
+     background: var(--color-transparent);
+     border: none;
+     border-radius: 0px;
+ }
+
+ .Mulmedia-Frame .modal-body {
+     padding: 0px;
+     margin: auto;
+     flex: 0;
+ }
+
+ .Mulmedia-Frame .btn-close {
+     position: absolute;
+     top: -27px;
+     right: 0;
+     z-index: 20;
+     box-shadow: none;
+     background: var(--color-transparent) url("../../image/SVGs/Video-Closebtn.svg") center/ auto no-repeat;
+ }
+
+ .Mulmedia-Frame .modal-backdrop {
+     opacity: 0.7 !important;
+ }
+
+ .Mulmedia-Frame .modal-content iframe,
+ .Mulmedia-Frame .modal-content video {
+     width: 100%;
+     aspect-ratio: 16/9;
+     display: block;
+     box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+ }
+
+ .Mulmedia-Frame .modal-content video {
+     padding: 5px;
+     background: var(--color-black);
+ }
+
+ /* ------ End Multimedia Section ------ */
+
+ /* buy-tickets */
+ .tickets {
+     position: relative;
+     overflow: hidden !important;
+ }
+
+ .ticket-arrow {
+     width: 0;
+     height: 0;
+     margin: 0 auto 12.5px;
+     border-top: 25px solid transparent;
+     border-bottom: 25px solid transparent;
+     border-right: 28px solid #2c35ff;
+     position: absolute;
+     top: 50%;
+     left: 49%;
+     transform: translate(-50%, -49%);
+ }
+
+ .tickets .ticket-content {
+     padding: 100px 30px;
+     color: #fff;
+     background: url(../../image/Testimonial/ticket-bg.jpg) no-repeat center / cover !important;
+     height: 545px !important;
+     width: 100%;
+ }
+
+ .tickets .pad-mrg-1 {
+     padding: 0px !important;
+     margin: 0px !important;
+ }
+
+ .tickets .ticket-img {
+     width: 100%;
+     height: 545px !important;
+ }
+
+ .tickets .ticket-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover !important;
+ }
+
+ .tickets .ticket-content h2 {
+     font-family: "Chakra Petch";
+     font-size: 60px;
+     font-weight: 600;
+     line-height: 72px;
+     text-transform: uppercase;
+ }
+
+ .tickets .ticket-content span {
+     color: #00FF8C;
+     font-family: "Chakra Petch";
+     font-size: 64px;
+     font-weight: 600;
+     line-height: 72px;
+     text-transform: uppercase;
+ }
+
+ .tickets .ticket-content p {
+     max-width: 500px;
+     color: #FFF9F9;
+     font-family: "Neue Montreal";
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+ }
+
+ .ticket-btn {
+     display: flex;
+     gap: 10px !important;
+ }
+
+ .buy-btn a,
+ .Sponsor-btn a {
+     min-width: 240px;
+     background: #0D0135;
+     display: inline-block;
+     padding: 10px 22px;
+     color: #FFF;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 400;
+     text-transform: uppercase;
+     font-family: var(--font-Chakra-Petch);
+     transition: all 200ms linear 0ms;
+ }
+
+ .Sponsor-btn a {
+     background: #1839DC !important;
+ }
+
+ .buy-btn a i,
+ .Sponsor-btn a i {
+     margin-left: 10px;
+ }
+
+ .buy-btn a:hover {
+     color: #1839DC !important;
+     background: #fff;
+ }
+
+ .Sponsor-btn a:hover {
+     color: #0D0135 !important;
+     background: #fff !important;
+ }
+
+ .testi-frame,
+ .multi-videoframe {
+     width: 100%;
+     aspect-ratio: 16/9 !important;
+ }
+
+ /*--------------------------------------------------------------
+  End Testimonial Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+Networking App Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    App Installation
+--------------------------------------------------------------*/
+
+ .App-Installation {
+     padding: 210px 0px 100px;
+     background: #0D0135 url(../../image/Banners/NetworkingPage-Bg.png) no-repeat bottom / cover;
+ }
+
+ .App-Installation .row {
+     row-gap: 50px;
+     align-items: center;
+ }
+
+ .App-Installation .AppIntl-Img {
+     max-width: 13vw;
+     width: 100%;
+     height: 420px;
+     margin: 0px auto 25px;
+     position: relative;
+     left: 4%;
+ }
+
+ .App-Installation .AppIntl-Img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: block;
+     opacity: 0;
+     transition: all 1.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+
+ .App-Installation .AppIntl-Img .AppIntl-hqmenaImg {
+     z-index: 10;
+     opacity: 1;
+     transform: scale(1.5);
+ }
+
+ .App-Installation .AppIntl-Img.AppIntl-AnimateImg .AppIntl-hqmenaImg {
+     transform: scale(1);
+ }
+
+ .App-Installation .AppIntl-Img.AppIntl-AnimateImg .AppIntl-descImg {
+     z-index: 1;
+     animation: Descripton-Img 1.1s cubic-bezier(0.25, 1, 0.5, 1) 1s forwards;
+     opacity: 1;
+ }
+
+ .App-Installation .AppIntl-Img.AppIntl-AnimateImg .AppIntl-featureImg {
+     z-index: 1;
+     animation: Featured-Img 1.1s cubic-bezier(0.25, 1, 0.5, 1) 1s forwards;
+     opacity: 1;
+ }
+
+ @keyframes Descripton-Img {
+     0% {
+         left: 0;
+         transform: rotate(0deg);
+     }
+
+     100% {
+         left: -93%;
+         transform: rotate(-10.176deg);
+     }
+ }
+
+ @keyframes Featured-Img {
+     0% {
+         left: 0;
+         top: 0;
+         transform: rotate(0deg);
+     }
+
+     100% {
+         left: 81%;
+         top: 8%;
+         transform: rotate(8.449deg);
+     }
+ }
+
+ .App-Installation .AppIntl-cont {
+     direction: rtl;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-title {
+     background: rgba(0, 0, 0, 0.32);
+     padding: 7px 15px;
+     margin-bottom: 30px;
+     width: fit-content;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-title h3 {
+     font-size: 33px;
+     font-weight: 600;
+     color: var(--color-white);
+     text-transform: uppercase;
+     margin: 0px;
+     text-align: right;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-list {
+     margin-bottom: 20px;
+     margin-right: 10px;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-list li {
+     font-size: 16px;
+     font-weight: 500;
+     color: var(--color-white);
+     text-align: right;
+     text-transform: uppercase;
+     margin-bottom: 0px;
+     position: relative;
+     padding: 0px 15px 12px 0px;
+     font-family: var(--font-Chakra-Petch);
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-list li::before {
+     content: '';
+     position: absolute;
+     right: 0;
+     top: 8px;
+     width: 7px;
+     height: 7px;
+     background: #D9D9D9;
+ }
+
+ .About-Section .About-Content .About-List li i {
+     font-size: 14px;
+     margin-top: 4.5px;
+     color: var(--color-text);
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-Applinks {
+     display: flex;
+     align-items: center;
+     gap: 25px;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-Applinks a {
+     display: inline-block;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-Applinks a img {
+     max-width: 180px;
+     max-height: 52px;
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     transition: all 0.5s ease;
+ }
+
+ .App-Installation .AppIntl-cont .AppIntl-Applinks a img:hover {
+     transform: scale(1.05);
+ }
+
+ /*--------------------------------------------------------------
+    End App Installation
+--------------------------------------------------------------*/
+ /*--------------------------------------------------------------
+    Download App Section
+--------------------------------------------------------------*/
+
+ .DownloadApp-Section {
+     background: linear-gradient(236deg, #001478 -62.2%, #0F0F10 61.75%, #001478 118.75%);
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .Section-title h5 {
+     font-size: 25px;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .Section-title h1 {
+     font-size: 35px;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-desc {
+     margin-bottom: 20px;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-desc p {
+     font-size: 20px;
+     font-weight: 400;
+     margin: 0px;
+     color: var(--color-white);
+     letter-spacing: 0.5px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-links {
+     display: flex;
+     align-items: center;
+     gap: 25px;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-links a {
+     display: inline-block;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-links a img {
+     max-width: 180px;
+     max-height: 52px;
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     transition: all 0.5s ease;
+ }
+
+ .DownloadApp-Section .DwnldApp-cont .DwnldApp-links a img:hover {
+     transform: scale(1.05);
+ }
+
+ .DownloadApp-Section .DwnldApp-img {
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }
+
+ .DownloadApp-Section .DwnldApp-img img {
+     width: 100%;
+     object-fit: contain;
+     position: absolute;
+     top: -27px;
+     left: 10%;
+     height: 500px;
+     transform: scale(1.2);
+ }
+
+ /*--------------------------------------------------------------
+    End Download App Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    End Networking App Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    Agenda Page
+--------------------------------------------------------------*/
+ .All-Page-Banner.Agenda-banner {
+     background: url(../../image/Banners/Agenda-banner.jpg) no-repeat center / cover;
+ }
+
+ /* Second Section*/
+ .Agenda-Second-Section {
+     padding: 100px 0px;
+     background: #0D0135;
+ }
+
+ .Agenda-Second-Section .Agenda-Left-Details {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: center;
+     margin-bottom: 3rem;
+ }
+
+ .Agenda-Second-Section .AgendaPage-DayFilter {
+     color: #2A387A;
+     padding: 15px 20px;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+     border: 1px solid #2A387A;
+     border-top: none;
+     background: #FFFFFF0A;
+ }
+
+ .Agenda-Second-Section .DayFilterAlign {
+     margin-left: 0px;
+ }
+
+ .AgendaPage-HallFilter {
+     width: initial !important;
+     padding: 5px 20px !important;
+ }
+
+ .Agenda-Second-Section .AgendaPage-HallFilter .AgendaPage-ContentFilter .day {
+     font-size: 24px !important;
+     margin-bottom: 0px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Agenda-Second-Section .Agenda-Left-DetailsAlign {
+     justify-content: center;
+ }
+
+ .Agenda-Second-Section .AgendaPage-DayInner {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #FFFFFF0A;
+ }
+
+ .Agenda-Second-Section .AgendaPage-DayFilter.active,
+ .Agenda-Second-Section .AgendaPage-DayFilter:hover {
+     background: linear-gradient(100.07deg, #2F3D77 0%, #E50134 176.51%);
+     background: #00ff8c;
+     color: #0D0135;
+
+ }
+
+ .AgendaPage-DayFilter.active .AgendaPage-DayInner,
+ .AgendaPage-DayFilter:hover .AgendaPage-DayInner {
+     display: none;
+ }
+
+ .Agenda-Second-Section .AgendaPage-DayFilter .AgendaPage-ContentFilter .day {
+     font-size: 24px;
+     font-weight: 400;
+     margin-bottom: 5px;
+     line-height: 28.8px;
+     color: #2A387A;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Agenda-Second-Section .AgendaPage-DayFilter .AgendaPage-ContentFilter .date {
+     font-size: 20px;
+     margin-bottom: 0;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList {
+     margin-bottom: 28px;
+     display: flex;
+     border-radius: 10px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background: #FFFFFF0A;
+     align-items: center;
+     position: relative;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList::after {
+     position: absolute;
+     width: 1.5px;
+     height: 80%;
+     background: #00ff8c;
+     content: '';
+     top: 10%;
+     left: 25%;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList.active,
+ .Agenda-Second-Section .Agendalist-Left .AgendaList:hover {
+     background: #FFFFFF0A;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList p {
+     font-weight: 400;
+     font-size: 22px;
+     margin-bottom: 0px;
+     line-height: 28.8px;
+     color: #fff;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time {
+     width: 25%;
+     position: relative;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time p {
+     text-align: center;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time svg {
+     position: absolute;
+     top: -10px;
+     right: -23px;
+     width: 45px;
+     height: 45px;
+     z-index: 99;
+
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+     width: 75%;
+     padding-left: 60px;
+     padding-right: 20px;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper p {
+     padding: 0;
+     margin-bottom: 8px;
+     color: #fff;
+     font-family: var(--font-Neue-Montreal);
+     font-size: 22px;
+     font-weight: 400;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h3 {
+     font-size: 32px;
+     color: #fff;
+     font-family: var(--font-Neue-Montreal);
+     font-weight: 500;
+     line-height: 40px;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h4 {
+     font-size: 24px;
+     color: #fff;
+     font-family: var(--font-Neue-Montreal);
+     font-weight: 500;
+     line-height: 32px;
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon p {
+     display: flex;
+     align-items: center;
+     font-size: 14px;
+     gap: 8px;
+     margin-bottom: 0px;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon p i {
+     height: 11px;
+     color: #00ff8c;
+ }
+
+ /*--------------------------------------------------------------
+    End Agenda Page
+--------------------------------------------------------------*/
+ /*--------------------------------------------------------------
+    Become-Sponsor-Page 
+--------------------------------------------------------------*/
+.Become-Sponsor-Page .Become-sponsor-bg{
+    background: url(../../image/Banners/Become-sponsor-bg.jpg) no-repeat top / cover;
+}
+
+.Become-Sponsor-Page .Left-Right_sec .row{
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+ .Become-Sponsor-Page .Left-Right_sec .left-cont .Section-title h5 {
+    color: #0D0135;
+     margin-bottom: 20px;
+ }
+
+ .Become-Sponsor-Page .Left-Right_sec .left-cont ul li p {
+     line-height: 28px;
+     font-size: 18px;
+ }
+
+ .Become-Sponsor-Page .Left-Right_sec .left-cont ul li p i {
+     padding-right: 10px;
+     font-size: 20px;
+     color: #0D0135;
+ }
+
+
+
+ /*--------------------------------------------------------------
+    hform section
+--------------------------------------------------------------*/
+ .hform-section {
+     background-color: #fff;
+     position: relative;
+ }
+
+ /* .hform-section .overlay {
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.051282) 58.81%, rgba(0, 0, 0, 0) 63.87%, #000000 92.07%);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0.5;
+ } */
+
+ .hform-section .Section-title h1 {
+     color: #0D0135;
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 18px;
+ }
+
+ .hform-section .Section-title p {
+     color: #000;
+     font-size: 19px;
+     position: relative;
+     z-index: 3;
+     text-align: center;
+     margin-bottom: 35px;
+     text-transform: capitalize;
+     font-family: var(--font-Neue-Montreal);
+ }
+
+ .hform-section .spot-form {
+     border: 2px solid #152151;
+     padding: 40px;
+     border-radius: 20px;
+     width: 100%;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
+
+
+
+ /*--------------------------------------------------------------
+    End hform Section
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+    End Become-Sponsor-Page
+--------------------------------------------------------------*/
+ /*--------------------------------------------------------------
+    Terms & Conditions---Privacy Policy-Page
+--------------------------------------------------------------*/
+.All-Page-Banner.Terms-bg {
+    background: url(../../image/Banners/Terms&condition-banner.jpg) no-repeat center / cover;
+}
+.All-Page-Banner.Privacy-bg {
+    background: url(../../image/Banners/Privacy-banner.jpg) no-repeat center / cover;
+}
+
+.Contant-section h1 {
+    background: var(--background-btn1-gradient);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 5px;
+    margin-bottom: 1rem;
+}
+
+.Contant-section p {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 17px;
+    font-family: var(--font-Neue-Montreal);
+}
+
+.Contant-section h3 {
+    font-family: var(--font-Chakra-Petch);
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.Contant-section a {
+    display: inline-block;
+    color: var(--color-green);
+    font-weight: bold;
+    font-size: 15px !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.Contant-section a::before {
+    content: "";
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: var(--color-green);
+    transition: all 0.3s;
+    transform-origin: left top;
+    transform: scale(0, 1);
+}
+
+.Contant-section a:hover::before {
+    transform: scale(1, 1);
+}
+
+.Contant-section ul {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.Contant-section ul li {
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--font-Neue-Montreal);
+}
+
+.Contant-section ul li::before {
+    display: inline-block;
+    content: "✔";
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.Sponsor-sm-banner {
+    background: url(../../image/Banners/Small-banner.jpg) no-repeat center / cover;
+}
+
+.Sponsor-sm-banner h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.team-section {
+    background: #fff;
+}
+
+.team-section .team-sec-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-section .Section-title p {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #121212;
+    width: 90%;
+    margin: 0 auto;
+    font-family: var(--font-Neue-Montreal);
+}
+
+.team-section .team-sec-card .team-item {
+    position: relative;
+    overflow: hidden;
+    padding: 0px !important;
+    min-height: 315px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.team-section .team-sec-card .team-item .team-user {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: block;
+    z-index: 99;
+    border: 5px solid #fff;
+}
+
+.team-section .team-sec-card .team-item h3 {
+    margin-top: 1rem !important;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+    font-family: var(--font-Neue-Montreal);
+    position: relative;
+    z-index: 9;
+}
+
+.team-section .team-sec-card .team-item p {
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-1px);
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: var(--font-Neue-Montreal);
+    position: relative;
+    z-index: 9;
+}
+
+.team-section .team-sec-card .team-item .team-btn-icons {
+    display: flex;
+    margin: 20px !important;
+    position: relative;
+    z-index: 9;
+}
+
+.team-section .team-sec-card .team-item .team-btn-icons a {
+    width: 60% !important;
+    height: 100%;
+    display: block;
+    margin: 0 0.5rem !important;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    font-family: var(--font-Neue-Montreal);
+}
+
+.team-section .team-sec-card .team-item .team-btn-icons a img {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.team-section .team-sec-card .team-item:hover .team-user,
+.team-section .team-sec-card:hover h3 {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.team-section .team-sec-card .team-item::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* background: linear-gradient(100.07deg, #121e52 0%, #e50134 176.51%); */
+    background-image: url('../../image/Team/Team-bg.jpg');
+    z-index: 1;
+}
+
+.team-section .team-sec-card .team-item p a {
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.3s;
+    position: relative;
+    font-family: var(--font-Neue-Montreal);
+}
+
+.team-section .team-sec-card .team-item p a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: left top;
+    transform: scale(0, 1);
+    transition: all 0.3s;
+}
+
+.team-section .team-sec-card .team-item p a:hover::before {
+    transform: scale(1, 1);
+}
+
+.team-section .team-sec-card .team-item .section-title h4 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--font-Neue-Montreal);
+    position: relative;
+    z-index: 9;
+}
+
+.team-section .team-sec-card .team-item .team-btn-icons a:hover img {
+    transform: scale(1.1);
+}
+ /*--------------------------------------------------------------
+    End Terms & Conditions---Privacy Policy-Page
+--------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------
+   Media Query
+--------------------------------------------------------------*/
+
+ @media screen and (max-width: 1200px) {
+
+     /* ------  All Page Banner ------ */
+     .All-Page-Banner .BnrPage-Inner {
+         padding: 220px 0px 0px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title p {
+         width: 80%;
+     }
+
+     /*--------------------------------------------------------------
+        Seventh Edition Page
+    --------------------------------------------------------------*/
+
+     /* TFM-Journey-sec */
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(5) {
+         left: -60px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(6) {
+         left: -75px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(4) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(5) {
+         left: -15px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(6) {
+         left: -30px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(7) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(8) {
+         left: -15px;
+     }
+
+     /* ------  Percentage Section ------ */
+     .Percentage-Section .Perctge-card {
+         flex-wrap: wrap;
+         align-items: start;
+         max-width: 500px;
+     }
+
+     .Percentage-Section .Perctge-card .Perctge-tag {
+         min-width: 200px;
+     }
+
+     .Percentage-Section .Perctge-card .Perctge-tag p {
+         font-size: 18px;
+     }
+
+     .Percentage-Section .Perctge-card .Perctge-img,
+     .Percentage-Section .Perctge-card .Perctge-cont {
+         width: 100%;
+     }
+
+     /* ------  Join Section ------ */
+     .Join-section .Section-title h1 {
+         font-size: 60px;
+         line-height: 70px;
+     }
+
+     /*--------------------------------------------------------------
+        End Seventh Edition Page
+     --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        Testimonial Page
+     --------------------------------------------------------------*/
+
+     /* video-section */
+     .testimonial-video-section .testimonial-Video .testimonial-Thumb img {
+         width: 100%;
+         height: 500px;
+         object-fit: cover;
+     }
+
+     .testimonial-content p {
+         padding: 46px !important;
+     }
+
+     .video-bg {
+         margin-top: 40px;
+     }
+
+     /*  multivideo-section */
+     .multi-Video {
+         margin-bottom: 20px !important;
+     }
+
+     .multi-video-play {
+         height: auto !important;
+     }
+
+     /* buy-tickets  */
+     .buy-btn a,
+     .Sponsor-btn a {
+         font-size: 22px;
+         min-width: 200px;
+     }
+
+     /*--------------------------------------------------------------
+       End Testimonial Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList p {
+         font-size: 20px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h3 {
+         font-size: 28px;
+         line-height: 32px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper p {
+         font-size: 20px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon p {
+         font-size: 12px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h4 {
+         font-size: 22px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+         width: 75%;
+         padding-left: 45px;
+         padding-right: 15px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time svg {
+         top: -5px;
+         right: -21px;
+         width: 40px;
+         height: 40px;
+     }
+
+     /*--------------------------------------------------------------
+       End Agenda Page
+    --------------------------------------------------------------*/
+
+ }
+
+
+ /*-------------------------------
+   Laptop to Tablet View
+---------------------------------*/
+
+ /*-----------  max-width: 992px  -----------*/
+ @media (max-width: 992px) {
+
+     /* ------  All Page Banner ------ */
+     .All-Page-Banner .BnrPage-Inner {
+         padding: 180px 0px 0px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title {
+         max-width: 80%;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 55px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title p {
+         font-size: 20px;
+         line-height: 28px;
+     }
+
+     /*--------------------------------------------------------------
+       Speaker Page
+    --------------------------------------------------------------*/
+     .Be-A-Speaker .section-title h1 {
+         font-size: 48px;
+     }
+
+     /*--------------------------------------------------------------
+       End Speaker Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+      Sponsor Page
+    --------------------------------------------------------------*/
+     .Partner-Section .Partner-Title h2 {
+         font-size: 38px;
+     }
+
+     /*--------------------------------------------------------------
+     End Sponsor Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+     7th Edition Page
+    --------------------------------------------------------------*/
+     .All-Page-Banner.SevEdition-bg .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 50px;
+     }
+
+     /* sevanth-Edition */
+
+     .sevanth-Edition .row {
+         justify-content: center;
+     }
+
+     .sevanth-Edition .SevBnrCount-item {
+         margin: 0px auto;
+         width: 80%;
+     }
+
+     /* Left-Right_sec */
+
+     .Left-Right_sec .left-cont p {
+         font-size: 18px;
+         line-height: 24px;
+     }
+
+     /* TFM-Journey-sec */
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(3) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(4) {
+         left: -15px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(5) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(6) {
+         left: -15px;
+     }
+
+     /* ------  Glance Section ------ */
+     .Glance-Section .Glance-cont .Section-title h1 span {
+         display: inline-block;
+     }
+
+     .Glance-Section .Glance-cont .Glance-counter {
+         margin-top: 30px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-threedigit {
+         min-width: 103px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fourdigit {
+         min-width: 123px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fivedigit {
+         min-width: 152px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner h1 {
+         font-size: 38px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner p {
+         font-size: 20px;
+     }
+
+     .As-we-step .Section-title h5 {
+         margin-bottom: 15px;
+         line-height: 32px;
+     }
+
+     .As-we-step .add-pad {
+         padding: 0px 15px;
+     }
+
+     /* ------  Join Section ------ */
+     .Join-section {
+         padding: 155px 0px;
+     }
+
+     .Join-section .Section-title h1 {
+         font-size: 55px;
+         line-height: 60px;
+     }
+
+     /*--------------------------------------------------------------
+        End 7th Edition Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Hashmining Page
+    --------------------------------------------------------------*/
+
+     /* ------  Section Title  ------ */
+     .HashSection-title h1 {
+         font-size: 40px;
+     }
+
+     /* ------  Sub Page Banner  ------ */
+     .SubPage-Banner .SubPg-Bnrinner {
+         padding: 190px 0px 150px;
+     }
+
+     .SubPage-Banner .SubPg-Bnrimg {
+         max-width: 400px;
+         margin-bottom: 35px;
+     }
+
+     /*--------------------------------------------------------------
+      End Hashmining Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Testimonial Page
+     --------------------------------------------------------------*/
+
+     /* video-section */
+     .testimonial-video-section .testimonial-Video .testimonial-Thumb img {
+         width: 100%;
+         height: 390px;
+         object-fit: cover;
+     }
+
+     .testimonial-video-section .video-play {
+         width: 65px !important;
+         height: auto !important;
+     }
+
+     .testimonial-content p {
+         font-size: 19px !important;
+     }
+
+     .heighlight-text {
+         font-size: 19px !important;
+     }
+
+     .testimonial-video-section .modal-content .btn-close {
+         left: 95%;
+         top: -10%;
+     }
+
+     .testimonial-content p {
+         padding: 26px !important;
+     }
+
+     .quote-icon {
+         width: 50px;
+         height: 50px;
+     }
+
+     .quote-icon span {
+         font-size: 88px !important;
+         padding-top: 40px !important;
+     }
+
+     /* buy-tickets  */
+     .tickets .ticket-content {
+         padding-top: 75px !important;
+     }
+
+     .tickets .ticket-content h2,
+     .tickets .ticket-content span {
+         font-size: 40px;
+         line-height: 42px;
+     }
+
+     .ticket-arrow {
+         display: none !important;
+     }
+
+     .tickets .ticket-content p {
+         font-size: 25px;
+         line-height: 1.5;
+         max-width: 300px !important;
+     }
+
+     .buy-btn a,
+     .Sponsor-btn a {
+         font-size: 15px;
+         min-width: 140px !important;
+     }
+
+     /*--------------------------------------------------------------
+        End Testimonial Page
+     --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        Networking App Page
+    --------------------------------------------------------------*/
+
+     /* ------  App Installation Section  ------ */
+     .App-Installation {
+         padding: 160px 0px 80px;
+         background-size: contain;
+     }
+
+     .App-Installation .Section-title {
+         margin-bottom: 50px;
+     }
+
+     .App-Installation .AppIntl-Img {
+         max-width: 185px;
+         left: 0%;
+     }
+
+     /* ------  Download App Section  ------ */
+     .DownloadApp-Section .DwnldApp-img img {
+         position: relative;
+         top: 160px;
+         left: auto;
+         transform: scale(1.7);
+     }
+
+     /*--------------------------------------------------------------
+        End Networking App Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        Agenda Page
+    --------------------------------------------------------------*/
+
+     .Agenda-Second-Section {
+         padding: 70px 0px;
+     }
+
+     .Agenda-Second-Section .AgendaPage-DayFilter .AgendaPage-ContentFilter .day {
+         font-size: 20px !important;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time svg {
+         position: absolute;
+         top: 0px;
+         right: -16px;
+         width: 30px;
+         height: 30px;
+         z-index: 99;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList p {
+         font-size: 16px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h3 {
+         font-size: 24px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper p {
+         font-size: 16px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h4 {
+         font-size: 20px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+         padding-left: 40px;
+     }
+
+     /*--------------------------------------------------------------
+        End Agenda Page
+    --------------------------------------------------------------*/
+
+ }
+
+
+ /*-------------------------------
+   End Laptop to Tablet View
+---------------------------------*/
+
+ /*-------------------------------
+   Tablet View
+---------------------------------*/
+ @media (max-width: 768px) {
+
+     /* ------  All Page Banner ------ */
+     .All-Page-Banner {
+         padding: 70px 0px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner {
+         padding: 165px 0px 0px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title {
+         max-width: 90%;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 50px;
+     }
+
+
+     /*--------------------------------------------------------------
+       Speaker Page
+    --------------------------------------------------------------*/
+
+     .Be-A-Speaker .right-content p {
+         font-size: 20px;
+     }
+
+     .Be-A-Speaker .right-content ul li {
+         font-size: 20px;
+     }
+
+     .Be-A-Speaker .right-content .SPk-btn a {
+         font-size: 20px;
+     }
+
+     /*--------------------------------------------------------------
+       End Speaker Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+      Sponsor Page
+   --------------------------------------------------------------*/
+
+     .Partner-Section .Partner-Title h2 {
+         font-size: 36px;
+     }
+
+     /*--------------------------------------------------------------
+      End Sponsor Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+      7th Edition Page
+    --------------------------------------------------------------*/
+
+     .All-Page-Banner.SevEdition-bg .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 40px;
+     }
+
+     /* sevanth-Edition */
+
+     .sevanth-Edition .SevBnrCount-item {
+         margin: 0 auto;
+         width: 55%;
+     }
+
+     .sevanth-Edition .SevBnrCount-item p {
+         font-size: 28px;
+         line-height: 30px;
+     }
+
+     .sevanth-Edition .SevBnrCount-item h1 {
+         font-size: 22px;
+     }
+
+     /* Left-Right_sec */
+
+     .Left-Right_sec .left-cont p {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     /* TFM-Journey-sec */
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card {
+         height: 380px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card .fit-img {
+         width: 60px;
+         height: 150px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card h2 {
+         font-size: 38px;
+         line-height: 48px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card h4 {
+         font-size: 28px;
+         line-height: 32px;
+     }
+
+     /* ------  Glance Section ------ */
+     .Glance-Section .Glance-img {
+         width: 100%;
+     }
+
+     /* ------  As-we-step Section ------ */
+     .As-we-step .Section-title p {
+         font-size: 16px;
+     }
+
+     /* ------  Join Section ------ */
+     .Join-section {
+         padding: 80px 0px;
+     }
+
+     .Join-section .Section-title h1 {
+         font-size: 43px;
+         line-height: 58px;
+         margin-bottom: 10px;
+     }
+
+     /*--------------------------------------------------------------
+     End 7th Edition Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+     Hashmining Page
+    --------------------------------------------------------------*/
+
+     /* ------  Section Title  ------ */
+     .HashSection-title h1 {
+         font-size: 38px;
+     }
+
+     /* ------  Innovator Section  ------ */
+     .Inovator-Section {
+         padding: 60px 0px;
+     }
+
+     /* ------ Why Hashmining Section  ------ */
+     .Why-Hashmining {
+         padding: 60px 0px;
+     }
+
+     .Why-Hashmining .HashSection-title p {
+         font-size: 20px;
+     }
+
+     /* ------ Region Map  ------ */
+     .Region-Map {
+         padding: 60px 0px;
+     }
+
+     .Region-Map .World-Map img {
+         width: 100%;
+     }
+
+     /* ------ Atteding Count Section  ------ */
+     .Attending-Count {
+         padding: 60px 0px;
+     }
+
+     .Attending-Count .Attend-box .HashCounter-item h1 {
+         line-height: 50px;
+         font-size: 33px;
+     }
+
+     .Attending-Count .Attend-box .HashCounter-item p {
+         font-size: 12px;
+     }
+
+     /* ------  Offer Section  ------ */
+     .Offer-Section {
+         padding: 60px 0px;
+     }
+
+     /* ------  Join us Section  ------ */
+     .Joinus-Section .Joinus-cont p {
+         font-size: 20px;
+         line-height: 1.5;
+     }
+
+     /*--------------------------------------------------------------
+      End Hashmining Page
+    --------------------------------------------------------------*/
+
+
+     /*--------------------------------------------------------------
+        Floorplan Page
+    --------------------------------------------------------------*/
+
+     .Floorplan-Section .Fplr-title {
+         justify-content: center;
+     }
+
+     .Floorplan-Section .Fplr-title .Fplr-titlebtn {
+         display: none;
+     }
+
+     .Floorplan-Section .Fplr-cont .Fplr-btmbtn {
+         display: flex;
+     }
+
+     /*--------------------------------------------------------------
+        End Floorplan Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+         Testimonial Page
+     --------------------------------------------------------------*/
+
+     /* video-section */
+
+     .testimonial-video-section .row {
+         gap: 20px !important;
+     }
+
+     .testimonial-video-section .testimonial-Video .testimonial-Thumb img {
+         height: auto !important;
+     }
+
+     .testimonial-video-section .video-play {
+         width: 65px !important;
+         height: 65px !important;
+     }
+
+     .testimonial-video-section .modal-content .btn-close {
+         left: 94%;
+         top: -12%;
+     }
+
+     .testimonial-content p {
+         padding: 25px !important;
+         font-size: 17px !important;
+         line-height: 26px;
+     }
+
+     .heighlight-text {
+         font-size: 17px !important;
+         line-height: 26px;
+     }
+
+     .quote-icon {
+         width: 60px;
+         height: 60px;
+     }
+
+     .quote-icon span {
+         font-size: 88px !important;
+         padding-top: 40px !important;
+     }
+
+     /* buy-tickets  */
+     .tickets .ticket-img {
+         height: auto !important;
+     }
+
+     .tickets .ticket-content {
+         padding: 40px 30px !important;
+         height: auto !important;
+     }
+
+     .tickets .ticket-content h2,
+     .tickets .ticket-content span {
+         font-size: 32px;
+         line-height: 42px;
+     }
+
+     .ticket-arrow {
+         display: none !important;
+     }
+
+     .tickets .ticket-content p {
+         font-size: 17px;
+         line-height: 1.5;
+     }
+
+     .buy-btn a,
+     .Sponsor-btn a {
+         font-size: 15px;
+         min-width: 140px !important;
+     }
+
+     /*--------------------------------------------------------------
+        End Testimonial Page
+     --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        Networking App Page
+    --------------------------------------------------------------*/
+
+     /* ------  App Installation Section  ------ */
+     .App-Installation .AppIntl-Img {
+         max-width: 150px;
+         height: 335px;
+     }
+
+     /*--------------------------------------------------------------
+        End Networking App Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+
+     .Agenda-Second-Section {
+         padding: 60px 0px;
+     }
+
+     .Agenda-Second-Section .Agenda-Left-Details {
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: center;
+         margin-bottom: 2rem;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList {
+         display: inline-block !important;
+         padding: 40px 20px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time {
+         width: 100%;
+         position: relative;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+         width: 100%;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList::after {
+         position: absolute;
+         width: 60%;
+         height: 1.5px;
+         background: #00ff8c;
+         content: '';
+         top: 90px;
+         left: 20%;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time svg {
+         position: absolute;
+         top: 35px;
+         /* right: -16px; */
+         width: 30px;
+         height: 30px;
+         left: 48%;
+         z-index: 99;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+         padding-left: 40px;
+         margin-top: 50px;
+         padding: 0px 20px;
+         text-align: center;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon {
+         justify-content: center;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-Time-Icon p {
+         font-size: 12px;
+     }
+
+     /*--------------------------------------------------------------
+        End Agenda Page
+     --------------------------------------------------------------*/
+
+ }
+
+
+ /*--------------------------------------------------------------
+    Hashmining Page
+--------------------------------------------------------------*/
+
+ /*-----------  min-width: 768px and max-width: 1050px  -----------*/
+ @media only screen and (min-width: 768px) and (max-width: 1050px) {
+     .Offer-Section .row {
+         row-gap: 20px;
+     }
+
+     .Offer-card-box {
+         padding: 20px;
+     }
+
+     .Offer-card-box .Offer-title {
+         font-size: 25px;
+     }
+
+     .Offer-card-box .Offer-cont {
+         font-size: 18px;
+     }
+
+     /*--------------------------------------------------------------
+      End Hashmining Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        FAQ Page
+    --------------------------------------------------------------*/
+
+     .Faq-section .faq-slide {
+         width: 100%;
+     }
+
+     .Faq-section .accordion-button {
+         font-size: 22px;
+         line-height: 25px;
+     }
+
+     .Faq-section .accordion-item .accordion-body p {
+         font-size: 18px;
+         padding-bottom: 5px;
+     }
+
+     .Faq-section .accordion-body ul,
+     .Faq-section .accordion-body ul li {
+         font-size: 18px;
+     }
+
+     .Faq-section .accordion-button::after {
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+     }
+
+     /*--------------------------------------------------------------
+      End FAQ Page
+     --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+     hform-section Page
+     --------------------------------------------------------------*/
+
+     .hform-section .Section-title h1 {
+        font-size: 30px;
+        line-height: 29px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    .hform-section .Section-title p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+     /*--------------------------------------------------------------
+      End hform-section
+     --------------------------------------------------------------*/
+
+ }
+
+ /*-------------------------------
+   End Tablet View
+---------------------------------*/
+
+ /*-------------------------------
+   Mobile View
+---------------------------------*/
+ @media (max-width: 576px) {
+
+     /* ------  All Page Banner ------ */
+     .All-Page-Banner .BnrPage-Inner {
+         padding: 130px 0px 0px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title {
+         max-width: 100%;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 35px;
+     }
+
+     .All-Page-Banner .BnrPage-Inner .BnrPage-Title p {
+         font-size: 16px;
+         width: 90%;
+     }
+
+     /*--------------------------------------------------------------
+       Speaker Page
+    --------------------------------------------------------------*/
+
+     .Be-A-Speaker .section-title h1 {
+         font-size: 32px;
+         line-height: 42px;
+     }
+
+     .Be-A-Speaker .right-content p {
+         font-size: 16px;
+     }
+
+     .Be-A-Speaker .right-content ul li {
+         font-size: 16px;
+     }
+
+     .Be-A-Speaker .right-content .SPk-btn a {
+         font-size: 16px;
+     }
+
+     /*--------------------------------------------------------------
+       End Speaker Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Sponsor Page
+    --------------------------------------------------------------*/
+
+     .Partner-Section .Partner-Title h2 {
+         font-size: 30px;
+     }
+
+     /*--------------------------------------------------------------
+       End Sponsor Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+     7th Edition Page
+    --------------------------------------------------------------*/
+
+     .All-Page-Banner.SevEdition-bg .BnrPage-Inner .BnrPage-Title h1 {
+         font-size: 35px;
+     }
+
+     /* sevanth-Edition */
+
+     .sevanth-Edition .row {
+         row-gap: 30px;
+     }
+
+     .sevanth-Edition .SevBnrCount-item p {
+         font-size: 22px;
+     }
+
+     .sevanth-Edition .SevBnrCount-item h1 {
+         font-size: 18px;
+     }
+
+     /* TFM-Journey-sec  */
+
+     .TFM-Journey-sec {
+         padding: 60px 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card {
+         margin: 20px 0px 20px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card .fit-img {
+         width: 50px;
+         height: 150px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card h2 {
+         font-size: 28px;
+         line-height: 36px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card h4 {
+         font-size: 22px;
+         line-height: 26px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card {
+         height: 330px;
+         width: 240px;
+         margin: 20px 0px 20px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(2) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(4) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(6) {
+         left: 0px;
+     }
+
+     .TFM-Journey-sec .TFM-eight-cards .TFM-card:nth-child(8) {
+         left: 0px;
+     }
+
+     /* ------  Glance Section ------ */
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-threedigit {
+         min-width: 95px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fourdigit {
+         min-width: 105px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner.Counter-fivedigit {
+         min-width: 120px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner h1 {
+         font-size: 30px;
+     }
+
+     .Glance-Section .Glancecounter-item .Glancecounter-inner p {
+         font-size: 20px;
+     }
+
+     /* ------  Percentage Section ------ */
+     .Percentage-Section .Perctge-card {
+         padding: 30px 20px;
+     }
+
+     .Percentage-Section .Perctge-card .Perctge-tag {
+         min-width: 150px;
+     }
+
+     .Percentage-Section .Perctge-card .Perctge-tag p {
+         font-size: 16px;
+     }
+
+     /* ------  Join Section ------ */
+     .Join-section .Section-title h1 {
+         font-size: 30px;
+         line-height: 38px;
+         margin-bottom: 10px;
+     }
+
+     .Join-section .Section-title h5 {
+         font-size: 22px;
+         line-height: 30px;
+     }
+
+     /*--------------------------------------------------------------
+        End 7th Edition Page
+    --------------------------------------------------------------*/
+     /*--------------------------------------------------------------
+        Multimedia Page
+    --------------------------------------------------------------*/
+
+     /* ------ Multimedia Section ------ */
+     .Multimedia-section .Multimedia-cont {
+         min-height: 200px;
+     }
+
+     .Multimedia-section .Multimedia-cont .Mulmedia-play {
+         width: 53px;
+     }
+
+     /*--------------------------------------------------------------
+        End Multimedia Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+        Hashmining Page
+    --------------------------------------------------------------*/
+
+     /* ------  Section Title  ------ */
+     .HashSection-title h1 {
+         font-size: 30px;
+     }
+
+     /* ------  Sub Page Banner  ------ */
+     .SubPage-Banner .SubPg-Bnrinner {
+         padding: 160px 0px 100px;
+     }
+
+     .SubPage-Banner .SubPg-Bnrimg {
+         max-width: 80%;
+     }
+
+     .SubPage-Banner .SubPg-cont p {
+         font-size: 17px;
+     }
+
+     /* ------ Innovator Section  ------ */
+     .Inovator-Section .Innovator-cardlist {
+         row-gap: 15px;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card {
+         align-items: inherit;
+         column-gap: 15px;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-img img {
+         margin: auto;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-cont {
+         flex: 1;
+         justify-content: center;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-cont p {
+         white-space: wrap;
+         text-align: center;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-ratio {
+         display: none;
+     }
+
+     .Inovator-Section .Innovator-cardlist .Innovator-card .Intr-percent p {
+         margin: auto;
+     }
+
+     /*--------------------------------------------------------------
+      End Hashmining Page
+    --------------------------------------------------------------*/
+
+
+     /*--------------------------------------------------------------
+        Networking App Page
+    --------------------------------------------------------------*/
+
+     /* ------  App Installation Section  ------ */
+     .App-Installation .AppIntl-Img {
+         max-width: 100px;
+         height: 220px;
+     }
+
+     .App-Installation .AppIntl-cont .AppIntl-title h3 {
+         font-size: 30px;
+     }
+
+     .App-Installation .AppIntl-cont .AppIntl-list li {
+         font-size: 15px;
+     }
+
+     /* ------  Download App Section  ------ */
+     .DownloadApp-Section .DwnldApp-img img {
+         top: 130px;
+         height: 320px;
+         transform: scale(1.8);
+     }
+
+     .DownloadApp-Section .DwnldApp-cont .DwnldApp-desc p {
+         font-size: 17px;
+     }
+
+     /*--------------------------------------------------------------
+        End Networking App Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+       Agenda Page
+    --------------------------------------------------------------*/
+
+     .Agenda-Second-Section .Agenda-Left-Details {
+         flex-wrap: wrap;
+         margin-bottom: 1rem;
+     }
+
+     .Agenda-Second-Section .AgendaPage-DayFilter {
+         padding: 10px 10px;
+     }
+
+     .Agenda-Second-Section .AgendaPage-DayFilter .AgendaPage-ContentFilter .day {
+         font-size: 14px !important;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList {
+         padding: 20px 5px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList::after {
+         top: 71px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper {
+         margin-top: 40px;
+         padding: 0px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-leftside-time svg {
+         position: absolute;
+         top: 38px;
+         /* right: -16px; */
+         width: 25px;
+         height: 25px;
+         left: 47%;
+         z-index: 99;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h3 {
+         font-size: 22px;
+     }
+
+     .Agenda-Second-Section .Agendalist-Left .AgendaList .AgendaPage-wrapper h4 {
+         font-size: 18px;
+         line-height: 22px;
+     }
+
+     /*--------------------------------------------------------------
+        End Agenda Page
+    --------------------------------------------------------------*/
+     /*--------------------------------------------------------------
+        Become-Sponsor-Page
+    --------------------------------------------------------------*/
+
+    .Become-Sponsor-Page .counter-section .counter-box p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+         /*--------------------------------------------------------------
+        END Become-Sponsor-Page
+    --------------------------------------------------------------*/
+ }
+
+
+ /*-----------  min-width: 320px and max-width: 767px  -----------*/
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+     /*--------------------------------------------------------------
+      Hashmining Page
+    --------------------------------------------------------------*/
+
+     /* ------ Offer Section  ------ */
+     .Offer-Section .row {
+         row-gap: 20px;
+     }
+
+     .Offer-card-box {
+         padding: 20px;
+     }
+
+     .Offer-card-box .Offer-title {
+         font-size: 25px;
+     }
+
+     .Offer-card-box .Offer-cont {
+         font-size: 17px;
+     }
+
+     /*--------------------------------------------------------------
+      End Hashmining Page
+    --------------------------------------------------------------*/
+
+
+     /*--------------------------------------------------------------
+      FAQ Page
+    --------------------------------------------------------------*/
+
+     .Faq-section .accordion-button {
+         font-size: 17px;
+         line-height: 25px;
+     }
+
+     .Faq-section .accordion-item .accordion-body p {
+         font-size: 15px;
+         padding-bottom: 10px;
+     }
+
+     .Faq-section .accordion-body ul,
+     .Faq-section .accordion-body li {
+         font-size: 15px;
+     }
+
+     .Faq-section .accordion-button::after {
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+     }
+
+     .Faq-section .accordion-item .Sub-Title {
+         font-size: 17px;
+         margin-bottom: 6px;
+         margin-top: 16px;
+     }
+
+     /*--------------------------------------------------------------
+     End FAQ Page
+    --------------------------------------------------------------*/
+
+     /*--------------------------------------------------------------
+     Testimonial Page
+    --------------------------------------------------------------*/
+
+     /*  video-section */
+     .testimonial-video-section .modal-content .btn-close {
+         left: 92%;
+         top: -15%;
+     }
+
+     .buy-btn a,
+     .Sponsor-btn a {
+         font-size: 11px;
+     }
+
+     /*--------------------------------------------------------------
+    End Testimonial Page
+    --------------------------------------------------------------*/
+     /*--------------------------------------------------------------
+     Become-Sponsor-Page
+    --------------------------------------------------------------*/
+    .Become-Sponsor-Page .Left-Right_sec .left-cont ul li p {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .Become-Sponsor-Page .Left-Right_sec .left-cont ul li p i {
+        font-size: 17px;
+    }
+
+    /* hform-section */
+    .hform-section .Section-title h1 {
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+
+    .hform-section .Section-title p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+     /*--------------------------------------------------------------
+    End Become-Sponsor-Page
+    --------------------------------------------------------------*/
+
+
+ }
+
+ /*-------------------------------
+   End Mobile View
+---------------------------------*/
+
+ /*--------------------------------------------------------------
+   End Media Query
+--------------------------------------------------------------*/

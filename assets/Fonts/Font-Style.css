@@ -1,0 +1,81 @@
+/*** 
+
+====================================================================
+	Fonts
+====================================================================
+
+ ***/
+
+/* ------  Neue Montreal ------ */
+@font-face {
+    font-family: "Neue Montreal";
+    src: url('./Neue-Montreal/NeueMontreal-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url('./Neue-Montreal/NeueMontreal-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url('./Neue-Montreal/NeueMontreal-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url('./Neue-Montreal/NeueMontreal-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ------  Chakra Petch ------ */
+@font-face {
+    font-family: "Chakra Petch";
+    src: url('./Chakra-Petch/ChakraPetch-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chakra Petch";
+    src: url('./Chakra-Petch/ChakraPetch-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chakra Petch";
+    src: url('./Chakra-Petch/ChakraPetch-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chakra Petch";
+    src: url('./Chakra-Petch/ChakraPetch-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chakra Petch";
+    src: url('./Chakra-Petch/ChakraPetch-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
